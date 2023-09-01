@@ -1,5 +1,5 @@
 name: BORIS-EXEMPLE
-run-name: ${{ github.actor }} is showing off 
+run-name: ${{ github.actor }} example check node -v
 on: [push]
 jobs:
   check-jest-version:
