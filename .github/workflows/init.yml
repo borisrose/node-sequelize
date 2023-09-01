@@ -1,0 +1,13 @@
+name: boris-init
+run-name: ${{ github.actor }} is showing off 
+on: [push]
+jobs:
+  check-jest-version:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: '19.7.0'
+      - run: npm install jest
+      - run: jest -v
