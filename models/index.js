@@ -16,7 +16,7 @@ Product.belongsTo(Seller, {
 });
 
 
-sequelize.sync()
+sequelize.sync({ alter : true})
 
 module.exports = {
 

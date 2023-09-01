@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "borisrose",
+    "password": "borisrose",
+    "database": "chimere",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "test": {
+    "username": "borisrose",
+    "password": "borisrose",
+    "database": "chimere",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "borisrose",
+    "password": "borisrose",
+    "database": "chimere",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  }
+}

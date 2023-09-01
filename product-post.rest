@@ -1,0 +1,9 @@
+POST http://localhost:3000/api/products/create
+Content-Type: application/json
+
+{
+    "sellerId": 100,
+    "description": "une femme pensant",
+    "url": "https://cdn.pixabay.com/photo/2019/05/04/15/24/woman-4178302_1280.jpg",
+    "price": 1000
+}

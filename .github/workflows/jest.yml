@@ -1,4 +1,4 @@
-name: BORIS-EXEMPLE
+name: JEST-VERSION
 run-name: ${{ github.actor }} example check node -v
 on: [push]
 jobs:
@@ -10,4 +10,4 @@ jobs:
         with:
           node-version: '18'
       - run: npm install -g jest
-      - run: jest -v
+      - run: jest --version
